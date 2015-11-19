@@ -1,0 +1,185 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar-brand {
+ padding-top: 5px;
+}
+.navbar{
+height: 80px;padding-top: 15px;
+}
+.navbar-default .navbar-nav  li a:hover{
+color: #C62A69;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+#myCarousel .item{
+  height: 100%;
+}
+
+
+#more{
+  background-color: #e7e7e7;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: -5px;
+}
+#more p{
+  font-size: 9pt;
+
+  font-weight: 400;
+
+}
+#more h5{
+  font-weight: bold;
+}
+#more h5 span{
+  font-size: 9pt;
+  font-weight: lighter;
+
+}
+#contact{
+  text-align: center;
+  background-color: #e7e7e7;
+  padding-bottom: 15px;
+}
+
+#contact h3{
+  font-size: 20px;
+}
+#contact img{
+  width:25px;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.images_r1 img{
+  width: 100%;
+}
+.images_r2 img{
+  width: 100%;
+}
+.images_r5 img{
+  width: 100%;
+}
+.images_r3 img {
+  width: 100%;
+}
+.images_r4 img{
+  width: 100%;
+}
+.images_r1 h3,.images_r2 h3,.images_r3 h3,.images_r4 h3,.images_r5 h3{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #222;
+
+}
+.images_r1 h5,.images_r2 h5,.images_r3 h5,.images_r4 h5,.images_r5 h5{
+  font-size: 9pt;
+  font-weight: 200;
+  color: #222;
+
+}
+.images_r1,.images_r2,.images_r3,.images_r4,.images_r5{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.images_r4 p,.images_r5 p{
+  text-align: justify;
+}
+.images_r4 h2,.images_r5 h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.images_r4 h4,.images_r5 h4{
+  font-size: 15px;
+  font-weight: 300;
+ color: #bbb;
+}
+#footer{
+  background-color: #eee;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+#footer ul{
+  text-decoration: none;
+  list-style: none;
+  font-weight: lighter;
+}
+#footer ul li a{
+  color: #777;
+
+}
+#footer img{
+  width: 100px;
+}
+.list1{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #eee;
+  padding-bottom: 20px;
+}
+#time{
+  text-align: right;
+  float: right;
+}
+.glyphicon-time{
+  color: #C62A69;
+  padding-top: 0px;
+  padding-left: 5px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+
+
+/* Large desktop */
+@media (min-width: 962px) {
+  #myCarousel .item{
+    width: 100%;
+  }
+
+
+
+
+}
